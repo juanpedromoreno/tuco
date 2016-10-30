@@ -253,6 +253,8 @@ Here is an example session.
 println(test.ensuring(stop).unsafePerformIO)
 ```
 
+Note that in addition to the line editing controls described in the Hello World example you also get history access with up/down arrows when using the command shell.
+
 Shut the server down when you're done.
 
 ```tut

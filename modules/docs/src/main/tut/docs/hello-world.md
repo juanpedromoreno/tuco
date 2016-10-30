@@ -52,6 +52,8 @@ We can now connect to the server from another terminal window via `telnet`.
 println(test.ensuring(stop).unsafePerformIO)
 ```
 
+Note that when you're typing your name you can use cursor keys, backspace, forward delete with Ctrl+D, beginning/end of line with Ctrl+A/E and delete to end of line with Ctrl+K. **Tuco** provides this support via its `readLn` implementation.
+
 We can do this as many times as we like, with a the default maximum of 25 simultaneous connections. To terminate the server go back to the REPL and run the `stop` program.
 
 ```tut
